@@ -1,0 +1,182 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.bgimg {
+    background-image: url(Rectangle\ 2.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+}
+
+.anchor a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0px 5px;
+
+}
+
+.head {
+    padding: 30px 0px;
+    color: aliceblue;
+}
+
+.headbutton button {
+    padding: 10px 20px;
+    margin: 20px 0px;
+    border: 0px;
+    border-radius: 20px;
+
+    background-color: chartreuse;
+    color: black;
+}
+
+.Mactivity {
+    display: flex;
+    color: aliceblue;
+    justify-content: space-between;
+}
+
+.activitybutton button {
+    padding: 10px 15px;
+    margin: 10px;
+    border: 5px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.436);
+}
+
+.activitybutton button:hover {
+    background-color: black;
+    color: aliceblue;
+
+}
+
+.activitybutton {
+    text-align: end;
+    margin: 30px 0px;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(5, 43, 76);
+    background-color: chartreuse;
+
+}
+
+.ser {
+    margin: 30px;
+
+}
+
+.ser I {
+    font-size: xx-large;
+}
+
+.fade {
+    background-color: rgba(0, 0, 0, 0.46);
+    padding: 20px 80px;
+}
+
+.slider {
+    background-color: white;
+
+}
+
+.content {
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content button {
+    padding: 10px 15px;
+    margin: 10px;
+    border: 2px solid rgb(13, 13, 59);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.436);
+
+}
+
+.content button:hover {
+    background-color: black;
+    color: aliceblue;
+
+}
+
+.slider .img {
+    display: flex;
+}
+
+.slidercard {
+    width: 200px;
+    height: 400PX;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 30px 80px;
+    border-radius: 20px;
+    display: flex;
+    align-items: end;
+    padding: 20px;
+}
+
+.card1 {
+    background-image: url(201411-w-worlds-most-visited-tourist-attractions-taj-mahal-agra.jpg);
+}
+
+.card2 {
+    background-image: url(OIP.webp);
+}
+
+.card3 {
+    background-image: url(Paris_GettyImages-601763009.webp);
+}
+
+.card4 {
+    background-image: url(201411-w-worlds-most-visited-tourist-attractions-taj-mahal-agra.jpg);
+}
+
+.footer .imgmain img {
+    width: 100%;
+
+    border-radius: 25px;
+}
+
+.footer {
+    padding: 50px;
+}
+
+.imgmain {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.details {
+    margin: 30px;
+    padding:30px;
+}
+.details hr{
+    width: 60px;
+}
+.maindetail{
+    margin: 20px;
+}
+.details i{
+    font-size: xx-large;
+}
+.details p{
+    margin: 5px;
+}
