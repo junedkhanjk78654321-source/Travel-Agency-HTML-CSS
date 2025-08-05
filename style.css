@@ -71,7 +71,7 @@
     display: flex;
     justify-content: space-between;
     color: rgb(5, 43, 76);
-    background-color: chartreuse;
+    background-color: rgb(193, 255, 132);
 
 }
 
@@ -118,6 +118,8 @@
 
 .slider .img {
     display: flex;
+    justify-content: space-around;
+
 }
 
 .slidercard {
@@ -126,11 +128,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin: 30px 80px;
+    /* margin: 30px 80px; */
     border-radius: 20px;
     display: flex;
     align-items: end;
     padding: 20px;
+    color: white;
 }
 
 .card1 {
@@ -166,17 +169,204 @@
 
 .details {
     margin: 30px;
-    padding:30px;
+    padding: 30px;
 }
-.details hr{
+
+.details hr {
     width: 60px;
 }
-.maindetail{
+
+.maindetail {
     margin: 20px;
 }
-.details i{
+
+.details i {
     font-size: xx-large;
 }
-.details p{
+
+.details p {
     margin: 5px;
+}
+
+.bannerbg {
+    background-color: rgb(64, 255, 0);
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(14, 14, 56);
+    padding: 10px;
+    color: white;
+    transform: rotate(1.3deg);
+}
+
+.fcontent {
+    text-align: center;
+    
+
+}
+
+.footermain .img  {
+    
+    
+    display: grid;
+    grid-template-columns: 25% 60%;  
+    justify-content: space-around; 
+    
+    height: 400px;
+    margin: 20px;
+}
+.footermain .img2{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    height: 400px;
+    justify-content: space-around;
+}
+.cards1{
+    background-image: url(/185289.webp);
+     background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+    border-radius: 20px; 
+}
+.cards2{
+    background-image: url(/wp4069456.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+    border-radius: 20px; 
+           display: flex;
+    align-items: end;
+}
+.cards3{
+    background-image: url(/Manarola-Liguria-Coast-Italy-Sunset-5b5fcb3b46e0fb00828b35dd.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+    border-radius: 20px; 
+           display: flex;
+    align-items: end;
+}
+.cards4{
+    background-image: url(/GettyImages-525508231.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+    border-radius: 20px; 
+           display: flex;
+    align-items: end;
+}
+.cards5{
+    background-image: url(/OIP.webp);
+     background-repeat: no-repeat;
+     background-size: cover;
+    background-position: center;
+    border-radius: 20px; 
+        display: flex;
+    align-items: end;
+    
+}
+
+.footerfade {
+    display: flex;
+    align-items: end;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.319);
+    border-radius: 20px;
+
+}
+
+.footercard{
+    padding: 20px;
+    color: white;
+}
+.journey{
+    text-align: center;
+}
+
+.footermain {
+    background-color: rgb(239, 237, 237);
+    padding: 20px 0px;
+}
+
+.footermain button{
+    background-color: chartreuse;
+    color: black;
+    text-align: center;
+    border: 0px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px 0px;
+}
+.last{
+    text-align: center;
+    padding: 20px;
+
+}
+.lastmessage {
+    width: 500px; 
+    margin: 0px auto;
+}
+.lastmessage p{
+    margin: 20px;
+}
+.collab{
+    width: 500px;
+    margin: 0px auto;
+    display:flex;
+    justify-content: center;
+
+}
+.collab img{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 50%;
+}
+.cast{
+    text-align: center;
+}
+.contact{
+    background-color: rgb(13, 50, 13);
+    text-align: center;
+}
+.contact h1{
+    color: aliceblue;
+    margin: 30px 0px;
+
+}
+.contact button{
+    border: 0px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: chartreuse;
+    color: black;
+}
+.bottombar{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(10, 10, 56);
+    margin: 30px;
+}
+.anchorlast a{
+     font-family: sans-serif;
+    text-decoration: none;
+color: rgb(10, 10, 56);
+    padding: 0px 5px;
+}
+.headlast{
+     padding: 30px 0px;
+    color: rgb(10, 10, 56);
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    align-items: center;
+}
+.copyhr {
+    margin: 35px;
 }
