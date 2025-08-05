@@ -5,7 +5,7 @@
 }
 
 .bgimg {
-    background-image: url(Rectangle\ 2.png);
+    background-image: url(/images/Rectangle\ 2.png);
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -137,19 +137,19 @@
 }
 
 .card1 {
-    background-image: url(201411-w-worlds-most-visited-tourist-attractions-taj-mahal-agra.jpg);
+    background-image: url(/images/201411-w-worlds-most-visited-tourist-attractions-taj-mahal-agra.jpg);
 }
 
 .card2 {
-    background-image: url(OIP.webp);
+    background-image: url(/images/OIP.webp);
 }
 
 .card3 {
-    background-image: url(Paris_GettyImages-601763009.webp);
+    background-image: url(/images/Paris_GettyImages-601763009.webp);
 }
 
 .card4 {
-    background-image: url(201411-w-worlds-most-visited-tourist-attractions-taj-mahal-agra.jpg);
+    background-image: url(/images/201411-w-worlds-most-visited-tourist-attractions-taj-mahal-agra.jpg);
 }
 
 .footer .imgmain img {
@@ -203,69 +203,75 @@
 
 .fcontent {
     text-align: center;
-    
+
 
 }
 
-.footermain .img  {
-    
-    
+.footermain .img {
+
+
     display: grid;
-    grid-template-columns: 25% 60%;  
-    justify-content: space-around; 
-    
+    grid-template-columns: 25% 60%;
+    justify-content: space-around;
+
     height: 400px;
     margin: 20px;
 }
-.footermain .img2{
+
+.footermain .img2 {
     display: grid;
     grid-template-columns: 25% 25% 25%;
     height: 400px;
     justify-content: space-around;
 }
-.cards1{
-    background-image: url(/185289.webp);
-     background-repeat: no-repeat;
-     background-size: cover;
+
+.cards1 {
+    background-image: url(/images//185289.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-    border-radius: 20px; 
+    border-radius: 20px;
 }
-.cards2{
-    background-image: url(/wp4069456.jpg);
-     background-repeat: no-repeat;
-     background-size: cover;
+
+.cards2 {
+    background-image: url(/images//wp4069456.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-    border-radius: 20px; 
-           display: flex;
+    border-radius: 20px;
+    display: flex;
     align-items: end;
 }
-.cards3{
-    background-image: url(/Manarola-Liguria-Coast-Italy-Sunset-5b5fcb3b46e0fb00828b35dd.jpg);
-     background-repeat: no-repeat;
-     background-size: cover;
+
+.cards3 {
+    background-image: url(/images//Manarola-Liguria-Coast-Italy-Sunset-5b5fcb3b46e0fb00828b35dd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-    border-radius: 20px; 
-           display: flex;
+    border-radius: 20px;
+    display: flex;
     align-items: end;
 }
-.cards4{
-    background-image: url(/GettyImages-525508231.jpg);
-     background-repeat: no-repeat;
-     background-size: cover;
+
+.cards4 {
+    background-image: url(/images//GettyImages-525508231.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-    border-radius: 20px; 
-           display: flex;
+    border-radius: 20px;
+    display: flex;
     align-items: end;
 }
-.cards5{
-    background-image: url(/OIP.webp);
-     background-repeat: no-repeat;
-     background-size: cover;
+
+.cards5 {
+    background-image: url(/images//OIP.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
-    border-radius: 20px; 
-        display: flex;
+    border-radius: 20px;
+    display: flex;
     align-items: end;
-    
+
 }
 
 .footerfade {
@@ -278,11 +284,12 @@
 
 }
 
-.footercard{
+.footercard {
     padding: 20px;
     color: white;
 }
-.journey{
+
+.journey {
     text-align: center;
 }
 
@@ -291,7 +298,7 @@
     padding: 20px 0px;
 }
 
-.footermain button{
+.footermain button {
     background-color: chartreuse;
     color: black;
     text-align: center;
@@ -300,73 +307,190 @@
     padding: 10px;
     margin: 20px 0px;
 }
-.last{
+
+.last {
     text-align: center;
     padding: 20px;
 
 }
+
 .lastmessage {
-    width: 500px; 
-    margin: 0px auto;
-}
-.lastmessage p{
-    margin: 20px;
-}
-.collab{
     width: 500px;
     margin: 0px auto;
-    display:flex;
+}
+
+.lastmessage p {
+    margin: 20px;
+}
+
+.collab {
+    width: 500px;
+    margin: 0px auto;
+    display: flex;
     justify-content: center;
 
 }
-.collab img{
+
+.collab img {
     width: 50px;
     height: 50px;
     margin: 15px;
     border-radius: 50%;
 }
-.cast{
+
+.cast {
     text-align: center;
 }
-.contact{
+
+.contact {
     background-color: rgb(13, 50, 13);
     text-align: center;
+
 }
-.contact h1{
+
+.contact h1 {
     color: aliceblue;
     margin: 30px 0px;
 
+
 }
-.contact button{
+
+.contact button {
     border: 0px;
     padding: 15px;
     border-radius: 25px;
     background-color: chartreuse;
     color: black;
+    margin: 20px;
 }
-.bottombar{
-     display: flex;
+
+.bottombar {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     color: rgb(10, 10, 56);
     margin: 30px;
 }
-.anchorlast a{
-     font-family: sans-serif;
+
+.anchorlast a {
+    font-family: sans-serif;
     text-decoration: none;
-color: rgb(10, 10, 56);
+    color: rgb(10, 10, 56);
     padding: 0px 5px;
 }
-.headlast{
-     padding: 30px 0px;
+
+.headlast {
+    padding: 30px 0px;
     color: rgb(10, 10, 56);
 }
-.copyright{
+
+.copyright {
     display: flex;
     justify-content: space-between;
     margin: 30px;
     align-items: center;
 }
+
 .copyhr {
     margin: 35px;
+}
+
+@media(max-width: 768px) {
+    .img {
+        flex-wrap: wrap;
+    }
+
+    .slidercard {
+        margin: 10px;
+    }
+
+    .imgmain {
+        font-size: small;
+        padding: 0px;
+    }
+}
+
+@media(max-width:1000px) {
+    .imgmain {
+        align-items: center;
+    }
+}
+
+@media(max-width:565px) {
+    .imgmain {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .Mactivity {
+        flex-wrap: wrap;
+    }
+
+    .activity {
+        margin: 20px;
+    }
+
+    .cards1,
+    .cards2,
+    .cards3,
+    .cards4,
+    .cards5 {
+        height: 200px;
+    }
+
+    .bottombar {
+        font-size: small;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:425px) {
+    .collab {
+        width: 100%;
+
+    }
+
+    .lastmessage {
+        width: 100%;
+    }
+
+    .content .p h1 {
+        font-size: 24px;
+        padding: 0px;
+    }
+    .content{
+        margin: 20px;
+        padding: 0px;
+    }
+
+    .button button {
+        padding: 5px 7px;
+        margin: 5px;
+    }
+    .footermain .img{
+        height: 230px;
+    }
+    .service{
+        flex-wrap: wrap;
+        padding: 30px;
+    }
+    .banner h2{
+        margin: 10px;
+        font-size: 16px;
+        
+    }
+     .banner {
+        padding: 30px;
+        
+    }
+    .anchor{
+        font-size: 15px;
+    }
+  .footermain .img2{
+    height: 260px;
+  }
+  .footercard h1{
+
+    font-size: 20px;
+  }
 }
